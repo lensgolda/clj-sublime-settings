@@ -1,0 +1,7 @@
+// Settings in here override those in "Tutkain/Preferences.sublime-settings",
+
+{
+    // You can overwrite Tutkain's default settings for a REPL view.
+    "repl_view_settings": {},
+    "layout": "vertical",
+}

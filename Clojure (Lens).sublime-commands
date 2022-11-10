@@ -1,0 +1,13 @@
+[
+    // Connects to Tutkain REPL, shown vertically to the right
+    {
+        "caption": "Lens REPL connect",
+        "command": "tutkain_connect",
+        "args": {"host": "localhost", "output": "view"}
+    },
+    // Disconnect from a socket server.
+    {
+        "caption": "Lens REPL disconnect",
+        "command": "tutkain_disconnect",
+    },
+]

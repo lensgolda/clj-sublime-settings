@@ -1,0 +1,25 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+	"clients": {
+	    "clojure-lsp": {
+	      "enabled": true,
+	      "command": ["/usr/local/bin/clojure-lsp"],
+	      "selector": "source.clojure",
+	      "initializationOptions": {},
+	      "languageId": "clojure",
+	      "scopes": ["source.clojure"],
+	      "syntaxes": ["Packages/Clojure/Clojure.sublime-syntax"],
+	    },
+	    "gopls": {
+	    	"enabled": false,
+		    "env": {
+		    	"PATH": "/Users/lens/dev/go/bin",
+		    },
+      		"selector": "source.go",
+    	},
+  	},
+  	// Run the server's formatProvider (if supported) on a file before saving.
+  	// This option is also supported in syntax-specific settings and/or in the
+  	// "settings" section of project files.
+  	"lsp_format_on_save": true,
+}
